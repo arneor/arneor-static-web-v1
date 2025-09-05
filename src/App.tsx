@@ -44,7 +44,7 @@ const App = () => (
             path='/'
             element={
               <SEOWrapper
-                title='ARNEOR - Product Development, Design & Engineering Company'
+                title='ARNEOR | Product Development, Design & Engineering Company'
                 description='Leading product development company specializing in innovative design and engineering solutions. Expert in SaaS applications, Flutter development, and digital product design.'
                 keywords='product development, design engineering, SaaS development, Flutter app development, UI/UX design, digital products, ARNEOR'
                 canonicalUrl='/'>
@@ -57,7 +57,7 @@ const App = () => (
             path='/about'
             element={
               <SEOWrapper
-                title='About ARNEOR - Product Development Experts | Design & Engineering Team'
+                title='About ARNEOR | Product Development Experts | Design & Engineering Team'
                 description='Meet the ARNEOR team - passionate product developers, designers, and engineers creating innovative digital solutions. Founded by Vahab and Nidhin Lal.'
                 keywords='about ARNEOR, product development team, design engineering experts, company history, founders'
                 canonicalUrl='/about'>
@@ -70,7 +70,7 @@ const App = () => (
             path='/portfolio'
             element={
               <SEOWrapper
-                title='Portfolio - Our Product Development Work | ARNEOR Design & Engineering'
+                title='Portfolio| Our Product Development Work | ARNEOR Design & Engineering'
                 description="Explore ARNEOR's portfolio showcasing innovative product development projects, design solutions, and engineering excellence across various industries."
                 keywords='product development portfolio, design projects, engineering solutions, UNEVEE, case studies, ARNEOR work'
                 canonicalUrl='/portfolio'>
@@ -83,7 +83,7 @@ const App = () => (
             path='/services'
             element={
               <SEOWrapper
-                title='Services - Product Development, Design & Engineering | ARNEOR'
+                title='Services | Product Development, Design & Engineering | ARNEOR'
                 description='Comprehensive product development services including design, engineering, SaaS development, Flutter mobile apps, and UI/UX design solutions.'
                 keywords='product development services, design engineering, SaaS development, Flutter development, UI/UX design, mobile app development'
                 canonicalUrl='/services'>
@@ -96,7 +96,7 @@ const App = () => (
             path='/careers'
             element={
               <SEOWrapper
-                title='Careers at ARNEOR - Join Our Product Development Team'
+                title='Careers at ARNEOR | Join Our Product Development Team'
                 description="Join ARNEOR's innovative product development team. Exciting opportunities for designers, engineers, and developers passionate about creating amazing products."
                 keywords='careers at ARNEOR, product development jobs, design engineering careers, Flutter developer jobs, UI/UX designer positions'
                 canonicalUrl='/careers'>
@@ -109,7 +109,7 @@ const App = () => (
             path='/contact'
             element={
               <SEOWrapper
-                title='Contact ARNEOR - Get in Touch for Product Development Projects'
+                title='Contact ARNEOR | Get in Touch for Product Development Projects'
                 description="Contact ARNEOR for your product development needs. Let's discuss how our design and engineering expertise can bring your ideas to life."
                 keywords='contact ARNEOR, product development inquiry, design engineering consultation, project discussion'
                 canonicalUrl='/contact'>
