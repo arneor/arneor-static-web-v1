@@ -16,7 +16,7 @@ const Footer = () => {
                   className='h-8 w-8 filter rounded-full object-cover'
                 />
               </div>
-              <span className='font-bold text-xl'>ARNEOR</span>
+              <span className='font-bold text-xl'>Arneor</span>
             </div>
             <p className='text-muted-foreground text-sm'>
               Building innovative SaaS solutions and mobile applications for the
@@ -75,7 +75,7 @@ const Footer = () => {
 
         <div className='border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center'>
           <p className='text-muted-foreground text-sm'>
-            © 2024 ARNEOR. All rights reserved.
+            © 2025 Arneor. All rights reserved.
           </p>
           <div className='flex space-x-6 mt-4 md:mt-0'>
             <span className='text-muted-foreground text-sm'>

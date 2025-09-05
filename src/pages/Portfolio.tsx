@@ -107,16 +107,16 @@ const Portfolio = () => {
                       <div className='grid grid-cols-2 gap-4'>
                         <div className='bg-muted rounded-lg p-4 text-center'>
                           <Calendar className='h-6 w-6 text-primary mx-auto mb-2' />
-                          <div className='font-semibold'>2024</div>
+                          <div className='font-semibold'>2025</div>
                           <div className='text-sm text-muted-foreground'>
                             Launch Year
                           </div>
                         </div>
                         <div className='bg-muted rounded-lg p-4 text-center'>
                           <Clock className='h-6 w-6 text-primary mx-auto mb-2' />
-                          <div className='font-semibold'>6 Months</div>
+                          <div className='font-semibold'>Under Development</div>
                           <div className='text-sm text-muted-foreground'>
-                            Development
+                            This project is ongoing
                           </div>
                         </div>
                       </div>
@@ -231,21 +231,21 @@ const Portfolio = () => {
                   title: 'E-commerce Platform',
                   description:
                     'Next-generation e-commerce solution with AI-powered recommendations',
-                  timeline: 'Q2 2024',
+                  timeline: 'Q2 2026',
                   status: 'In Development',
                 },
                 {
-                  title: 'EdTech Solution',
+                  title: 'Wearable Product',
                   description:
-                    'Revolutionary learning management system for modern education',
-                  timeline: 'Q3 2024',
+                    'Cutting-edge wearable technology designed for seamless lifestyle integration',
+                  timeline: 'Q3 2026',
                   status: 'Planning Phase',
                 },
                 {
-                  title: 'FinTech Application',
+                  title: 'FinTech Solution',
                   description:
-                    'Innovative financial management tools for small businesses',
-                  timeline: 'Q4 2024',
+                    'Smart and secure UPI-based financial tools for faster digital transactions',
+                  timeline: 'Q4 2026',
                   status: 'Research Phase',
                 },
               ].map((project, index) => (

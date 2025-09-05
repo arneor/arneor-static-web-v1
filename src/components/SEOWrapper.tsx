@@ -43,7 +43,7 @@ const SEOWrapper: React.FC<SEOWrapperProps> = ({
         />
         <meta
           name='author'
-          content='ARNEOR'
+          content='Arneor'
         />
 
         {/* Robots */}
@@ -83,7 +83,7 @@ const SEOWrapper: React.FC<SEOWrapperProps> = ({
         />
         <meta
           property='og:site_name'
-          content='ARNEOR'
+          content='Arneor'
         />
         <meta
           property='og:locale'

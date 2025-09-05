@@ -32,7 +32,7 @@ const Navbar = () => {
               alt='ARNEOR'
               className='h-10 w-auto filter '
             />
-            <span className='font-bold text-xl text-foreground'>ARNEOR</span>
+            <span className='font-bold text-xl text-foreground'>Arneor</span>
           </Link>
 
           {/* Desktop Navigation */}

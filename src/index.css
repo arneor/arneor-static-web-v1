@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
-/* ARNEOR Design System - Professional Tech Company */
+/* Arneor Design System - Professional Tech Company */
 
 @layer base {
   :root {
@@ -15,43 +15,57 @@
     --primary: 213 94% 68%;
     --primary-foreground: 0 0% 100%;
     --primary-hover: 213 94% 62%;
-    
+
     /* Secondary brand colors */
     --secondary: 0 0% 12%;
     --secondary-foreground: 0 0% 98%;
-    
+
     /* Accent colors */
     --accent: 142 76% 36%;
     --accent-foreground: 0 0% 100%;
-    
+
     /* Neutral palette */
     --muted: 0 0% 12%;
     --muted-foreground: 0 0% 65%;
     --border: 0 0% 18%;
     --input: 0 0% 18%;
     --ring: 213 94% 68%;
-    
+
     /* Card and surfaces */
     --card: 0 0% 8%;
     --card-foreground: 0 0% 98%;
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 98%;
-    
+
     /* Status colors */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    
+
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(213 94% 68%) 0%, hsl(217 91% 60%) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(210 40% 96%) 0%, hsl(0 0% 100%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(213 94% 68% / 0.1) 0%, hsl(217 91% 60% / 0.05) 100%);
-    
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(213 94% 68%) 0%,
+      hsl(217 91% 60%) 100%
+    );
+    --gradient-secondary: linear-gradient(
+      135deg,
+      hsl(210 40% 96%) 0%,
+      hsl(0 0% 100%) 100%
+    );
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(213 94% 68% / 0.1) 0%,
+      hsl(217 91% 60% / 0.05) 100%
+    );
+
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -2px hsl(0 0% 0% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.1), 0 4px 6px -4px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.1),
+      0 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.1),
+      0 4px 6px -4px hsl(0 0% 0% / 0.1);
     --shadow-brand: 0 10px 30px -10px hsl(213 94% 68% / 0.3);
-    
+
     /* Spacing and sizing */
     --radius: 0.75rem;
     --container-max-width: 1200px;
@@ -102,8 +116,13 @@
   body {
     @apply bg-background text-foreground font-['Inter',sans-serif] antialiased;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-semibold tracking-tight;
   }
 }
@@ -113,23 +132,23 @@
     @apply mx-auto px-4 sm:px-6 lg:px-8;
     max-width: var(--container-max-width);
   }
-  
+
   .gradient-primary {
     background: var(--gradient-primary);
   }
-  
+
   .gradient-hero {
     background: var(--gradient-hero);
   }
-  
+
   .shadow-brand {
     box-shadow: var(--shadow-brand);
   }
-  
+
   .animate-fade-in {
     animation: fadeIn 0.6s ease-out;
   }
-  
+
   .animate-slide-up {
     animation: slideUp 0.6s ease-out;
   }
@@ -142,16 +161,20 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slideUp {
-  from { 
+  from {
     opacity: 0;
     transform: translateY(20px);
   }
-  to { 
+  to {
     opacity: 1;
     transform: translateY(0);
   }
