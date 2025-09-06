@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Linkedin, Instagram } from "lucide-react";
+import { Linkedin, Instagram, X } from "lucide-react";
 import arneorLogo from "@/assets/arneor-logo.png";
 
 const Footer = () => {
@@ -94,6 +94,15 @@ const Footer = () => {
                     aria-label="Follow us on Instagram"
                   >
                     <Instagram className="h-5 w-5" />
+                  </a>
+                  <a
+                    href="https://x.com/ArneorHq?t=DGrCdsSkWymhCxsqaO0EQg&s=09"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                    aria-label="Follow us on X"
+                  >
+                    <X className="h-5 w-5" />
                   </a>
                 </div>
               </div>
