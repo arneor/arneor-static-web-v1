@@ -175,7 +175,7 @@ const Services = () => {
       ],
     },
     {
-      name: 'Mobile & Game Development',
+      name: 'Mobile Development',
       icon: Smartphone,
       services: [
         {
