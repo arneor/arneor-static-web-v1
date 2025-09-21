@@ -9,7 +9,14 @@ import {
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Target, Users, Lightbulb, Trophy, ArrowRight } from 'lucide-react';
+import {
+  Target,
+  Users,
+  Lightbulb,
+  Trophy,
+  ArrowRight,
+  Cpu,
+} from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -26,16 +33,21 @@ const About = () => {
                 className='mb-6'>
                 About Arneor
               </Badge>
-              <h1 className='text-4xl md:text-6xl font-bold mb-8'>
-                Building Tomorrow's
+              <h1 className='text-4xl md:text-6xl font-bold mb-6'>
+                Engineering the Future of
                 <span className='block gradient-primary bg-clip-text text-transparent'>
-                  Technology Today
+                  Digital Innovation
                 </span>
               </h1>
+              <div className='mb-6'>
+                <p className='text-2xl md:text-3xl font-semibold text-foreground'>
+                  Think beyond. Build beyond.
+                </p>
+              </div>
               <p className='text-xl text-muted-foreground text-balance'>
-                Arneor is a technology holding company focused on developing
-                innovative SaaS applications and mobile solutions that empower
-                businesses worldwide.
+                Arneor is your 360° technology & digital partner, focused on
+                developing innovative solutions that empower businesses and
+                improve lives globally.
               </p>
             </div>
           </div>
@@ -52,8 +64,8 @@ const About = () => {
                     Founded in 2025, Arneor emerged from a vision to create
                     technology solutions that genuinely impact businesses and
                     improve lives. Based in India with a global perspective, we
-                    specialize in developing scalable SaaS applications and
-                    cross-platform mobile solutions.
+                    specialize in developing scalable SaaS applications, mobile
+                    solutions, and emerging technology platforms.
                   </p>
                   <p>
                     Our journey began with UNEVEE, a comprehensive health and
@@ -66,7 +78,9 @@ const About = () => {
                     Today, Arneor continues to expand its portfolio with
                     multiple projects in development, each designed to push the
                     boundaries of what's possible in modern software
-                    development.
+                    development. As your 360° technology partner, we offer
+                    comprehensive services across web, mobile, AI, cloud, and
+                    digital marketing domains.
                   </p>
                 </div>
               </div>
@@ -174,7 +188,8 @@ const About = () => {
               </h2>
               <p className='text-xl text-muted-foreground mb-12'>
                 Our team specializes in modern technologies that enable us to
-                build robust, scalable, and efficient applications.
+                build robust, scalable, and efficient applications across all
+                domains.
               </p>
 
               <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mb-12'>
@@ -188,18 +203,18 @@ const About = () => {
                 </div>
                 <div className='text-center'>
                   <div className='text-4xl font-bold text-primary mb-2'>
-                    SaaS
+                    AI/ML
                   </div>
                   <div className='text-muted-foreground'>
-                    Scalable software-as-a-service applications and platforms
+                    Artificial Intelligence and Machine Learning solutions
                   </div>
                 </div>
                 <div className='text-center'>
                   <div className='text-4xl font-bold text-primary mb-2'>
-                    Firebase
+                    Cloud
                   </div>
                   <div className='text-muted-foreground'>
-                    Backend services and real-time database solutions
+                    Scalable cloud infrastructure and DevOps solutions
                   </div>
                 </div>
               </div>

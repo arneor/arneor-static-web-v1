@@ -21,6 +21,7 @@ import {
   Code,
   Smartphone,
   Database,
+  Cpu,
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -44,6 +45,16 @@ const Careers = () => {
       description:
         'Work on our SaaS applications, building both frontend and backend components using modern technologies.',
       skills: ['React', 'Node.js', 'MongoDB', 'TypeScript', 'AWS'],
+      urgent: false,
+    },
+    {
+      title: 'AI/ML Engineer',
+      type: 'Full-time',
+      location: 'Remote / India',
+      experience: '3-5 years',
+      description:
+        'Develop intelligent solutions leveraging artificial intelligence and machine learning technologies.',
+      skills: ['Python', 'TensorFlow', 'PyTorch', 'Data Science', 'NLP'],
       urgent: false,
     },
     {
@@ -116,16 +127,22 @@ const Careers = () => {
                 className='mb-6'>
                 Join Our Team
               </Badge>
-              <h1 className='text-4xl md:text-6xl font-bold mb-8'>
+              <h1 className='text-4xl md:text-6xl font-bold mb-6'>
                 Build the Future
                 <span className='block gradient-primary bg-clip-text text-transparent'>
                   With Arneor
                 </span>
               </h1>
+              <div className='mb-6'>
+                <p className='text-2xl md:text-3xl font-semibold text-foreground'>
+                  Think beyond. Build beyond.
+                </p>
+              </div>
               <p className='text-xl text-muted-foreground text-balance'>
-                Join a dynamic team of innovators creating cutting-edge SaaS
-                applications and mobile solutions that make a real impact on
-                businesses worldwide.
+                Join a dynamic team of innovators creating cutting-edge
+                technology solutions that make a real impact on businesses
+                worldwide. As your 360° technology partner, we're shaping the
+                future of digital innovation.
               </p>
             </div>
           </div>
