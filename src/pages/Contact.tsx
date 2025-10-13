@@ -248,11 +248,20 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className='flex items-center gap-3'>
-                      <Mail className='h-5 w-5 text-primary' />
+                      <Phone className='h-5 w-5 text-primary' />
                       <div>
-                        <div className='font-medium'>Email</div>
+                        <div className='font-medium'>Phone</div>
                         <div className='text-sm text-muted-foreground'>
-                          infoarneor@gmail.com
+                          +91 9744880311
+                        </div>
+                      </div>
+                    </div>
+                    <div className='flex items-center gap-3 mt-4'>
+                      <MapPin className='h-5 w-5 text-primary' />
+                      <div>
+                        <div className='font-medium'>Location</div>
+                        <div className='text-sm text-muted-foreground'>
+                          Saudi Arabia
                         </div>
                       </div>
                     </div>
@@ -261,7 +270,16 @@ const Contact = () => {
                       <div>
                         <div className='font-medium'>Phone</div>
                         <div className='text-sm text-muted-foreground'>
-                          +91 9744880311
+                          +966 546886134
+                        </div>
+                      </div>
+                    </div>
+                    <div className='flex items-center gap-3'>
+                      <Mail className='h-5 w-5 text-primary' />
+                      <div>
+                        <div className='font-medium'>Email</div>
+                        <div className='text-sm text-muted-foreground'>
+                          infoarneor@gmail.com
                         </div>
                       </div>
                     </div>

@@ -72,6 +72,8 @@ const Footer = () => {
             <div className='space-y-3'>
               <p className='text-muted-foreground text-sm'>India</p>
               <p className='text-muted-foreground text-sm'>+91 9744880311</p>
+              <p className='text-muted-foreground text-sm mt-4'>Saudi Arabia</p>
+              <p className='text-muted-foreground text-sm'>+966 546886134</p>
               <Link
                 to='/contact'
                 className='text-primary hover:text-primary-hover text-sm transition-colors block'>
